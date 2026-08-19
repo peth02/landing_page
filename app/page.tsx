@@ -7,18 +7,17 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white px-4 sm:px-8 md:px-16 lg:px-24 py-12">
       <div className="max-w-5xl mx-auto space-y-10">
-        
         <motion.div
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, ease: "easeOut" }}
-          className="text-center md:text-left flex flex-col justify-center items-center"
+          className="text-center md:text-left flex flex-col justify-items-center items-center"
         >
-          <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight bg-gradient-to-r from-white via-zinc-300 to-zinc-500 bg-clip-text text-transparent capitalize">
+          <h1 className="text-4xl tracking-tight md:text-9xl md:tracking-widest font-extrabold bg-gradient-to-r from-white via-zinc-300 to-zinc-500 bg-clip-text text-transparent capitalize">
             Projects
           </h1>
-          <p className="text-zinc-400 mt-2 text-sm md:text-base">
-            A collection of projects I&apos;ve worked on.
+          <p className="text-zinc-400 mt-2 text-sm md:text-4xl md:tracking-widest text-center">
+            A collection of projects I've worked on.
           </p>
         </motion.div>
 
@@ -28,12 +27,14 @@ export default function Home() {
             link="https://google.com"
             about="new project"
             img="/image/placeholder.png"
-          />          <ProjectCard
+          />{" "}
+          <ProjectCard
             name="temp"
             link="https://google.com"
             about="new project"
             img="/image/placeholder.png"
-          />          <ProjectCard
+          />{" "}
+          <ProjectCard
             name="temp"
             link="https://google.com"
             about="new project"
