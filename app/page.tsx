@@ -1,4 +1,4 @@
-import { ProjectCard } from "@/_util/templates/cards";
+import { ProjectCard } from "@/_util/components/cards";
 
 export default function Home() {
   return (
