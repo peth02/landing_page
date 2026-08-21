@@ -24,10 +24,12 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <header className="sticky top-0 z-50 w-full border-b bg-black backdrop-blur-md">
-        <TopNav />
-      </header>
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <header className="sticky top-0 z-50 w-full border-b bg-black backdrop-blur-md">
+          <TopNav />
+        </header>
+        {children}
+      </body>
     </html>
   );
 }

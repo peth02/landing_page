@@ -1,0 +1,129 @@
+{
+  "project": [
+    {
+      "name": "Compiler",
+      "link": "",
+      "about": "Create python compile to compile algorithm into DSA",
+      "img": "/image/placeholder.png",
+      "source": ["source1"],
+      "tech": ["Python"],
+      "type": "ALGO"
+    },
+    {
+      "name": "Learnning Buddy",
+      "link": "",
+      "about": "",
+      "img": "/image/placeholder.png",
+      "source": ["https://github.com/peth02/LearnningBuddy_frontend", "https://github.com/Pawi16/learning-buddy-be"],
+      "tech": ["Next.js", "Java Spring Boot", "Python", "PostgresSQL"],
+      "type": "WEB"
+    },
+    {
+      "name": "Image Transmission Pipeline",
+      "link": "",
+      "about": "Create a pipeline for a secure, high-efficiency image transmission. Combining deep generative modeling with cryptographic secret sharing. across key reconstruction metrics (PSNR, SSIM, and MSE), the optimal model was selected, fine-tuned, and paired with Shamir's (k, n) Threshold Secret Sharing to split compact",
+      "img": "/image/placeholder.png",
+      "source": [],
+      "tech": ["Python", "Pytorch"],
+      "type": "AI"
+    },
+    {
+      "name": "Gamedle",
+      "link": "",
+      "about": "An interactive, Wordle-inspired guessing platform for Pokémon and League of Legends enthusiasts. Players test their gaming knowledge across dedicated modes by analyzing dynamic real-time hints—such as types, roles, release years to identify daily characters, while a comprehensive admin dashboard allows system managers to easily curate character databases, control answer rotations, and monitor player data.",
+      "img": "/image/placeholder.png",
+      "source": [],
+      "tech": [
+        "Next.js",
+        "Tailwind",
+        "TypeScript",
+        "Docker",
+        "Laravel",
+        "MySQL"
+      ],
+      "type": "WEB"
+    },
+    {
+      "name": "KUTY-activities hub for ku student",
+      "link": "",
+      "about": "A social activity platform for Kasetsart University students with shared interests. A centralized hub, the application enables students to discover, create, and manage campus activities, while a mandatory student identity verification protocol ensures a safe, authentic, and trusted community network for all students.",
+      "img": "/image/project/KU-TY.png",
+      "source": [
+        "https://github.com/KU-TY-Devops/472-G-KU_TY_Frontend-brain_dead",
+        "https://github.com/KU-TY-Devops/472-G-KU_TY_Backend-brain_dead"
+      ],
+      "tech": ["Next.js", "Tailwind", "Java Spring Boot", "PostgresSQL"],
+      "type": "WEB"
+    },
+    {
+      "name": "Student Organization Management",
+      "link": "",
+      "about": "",
+      "img": "/image/placeholder.png",
+      "source": ["source1"],
+      "tech": [
+        "Next.js",
+        "Tailwind",
+        "TypeScript",
+        "Docker",
+        "Laravel",
+        "MySQL"
+      ],
+      "type": "WEB"
+    },
+    {
+      "name": "Farm Management system",
+      "link": "",
+      "about": "",
+      "img": "/image/placeholder.png",
+      "source": ["source1"],
+      "tech": ["Next.js", "Tailwind", "TypeScript", "Docker", "GO", "MySQL"],
+      "type": "WEB"
+    },
+    {
+      "name": "Car game",
+      "link": "",
+      "about": "A 3D driving experience built with Unity and Blender, featuring realistic vehicle dynamics, custom environment assets, and responsive physics controls. Focusing on smooth handling, accurate motion mechanics, and accessible gameplay loop.",
+      "img": "/image/placeholder.png",
+      "source": [],
+      "tech": ["unity", "blender"],
+      "type": "GAME"
+    },
+    {
+      "name": "Horror game",
+      "link": "",
+      "about": "An intense 3D stealth-survival game built in Unreal Engine 5 with Blender assets. Players must navigate atmospheric environments to complete critical escape objectives while evading an unpredictable ghost powered by custom AI detection routines that react dynamically to player movement and audio cues.",
+      "img": "/image/placeholder.png",
+      "source": ["source1"],
+      "tech": ["unreal engine 5", "blender"],
+      "type": "GAME"
+    },
+    {
+      "name": "Event Management Software",
+      "link": "",
+      "about": "A desktop event orchestration app developed using Java, JavaFX, and the Model-View-Controller (MVC) design pattern. Structured around strict Object-Oriented Design (OOD) principles, the system leverages a modular architecture to handle core operations for users, events, and teams. Built with a lightweight, file-based CSV data layer that utilizes custom object serialization/deserialization to guarantee data persistence and integrity without requiring an external database.",
+      "img": "/image/placeholder.png",
+      "source": ["https://github.com/CS211-661/cs211-661-project-mr-po"],
+      "tech": ["Java", "JavaFX", "Figma"],
+      "type": "SOFTWARE"
+    },
+    {
+      "name": "Software",
+      "link": "",
+      "about": "",
+      "img": "/image/placeholder.png",
+      "source": [],
+      "tech": ["unity", "blender"],
+      "type": "SOFTWARE"
+    },
+    {
+      "name": "temp",
+      "link": "",
+      "about": "",
+      "img": "/image/placeholder.png",
+      "source": [],
+      "tech": [],
+      "type": "SOFTWARE"
+    }
+  ]
+}

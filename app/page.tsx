@@ -1,9 +1,24 @@
 "use client";
 
 import { motion } from "motion/react";
-import { ProjectCard } from "@/_util/components/cards";
+import { ProjectCard, ProjectCardProps } from "@/_util/components/cards";
+import { useEffect, useState } from "react";
+import project_type from "@/_data/project_type.json";
+import project from "@/_data/project.json";
 
 export default function Home() {
+  const [sort, setSort] = useState();
+  const [data, setData] = useState(Array<ProjectCardProps>);
+
+  useEffect(() => {
+    const initData = async () => {
+      setData(project.project);
+    };
+    initData();
+  }, []);
+  console.log(data);
+  console.log(project_type);
+  console.log(project_type.name);
   return (
     <main className="min-h-screen bg-black text-white px-4 sm:px-8 md:px-16 lg:px-24 py-12">
       <div className="max-w-5xl mx-auto space-y-10">
@@ -21,32 +36,22 @@ export default function Home() {
           </p>
         </motion.div>
 
-        <div className="flex flex-col gap-6">
-          <ProjectCard
-            name="temp"
-            link="https://google.com"
-            about="new project"
-            img="/image/placeholder.png"
-          />{" "}
-          <ProjectCard
-            name="temp"
-            link="https://google.com"
-            about="new project"
-            img="/image/placeholder.png"
-          />{" "}
-          <ProjectCard
-            name="temp"
-            link="https://google.com"
-            about="new project"
-            img="/image/placeholder.png"
-          />
-          <ProjectCard
-            name="temp"
-            link="https://google.com"
-            about="new project"
-            img="/image/placeholder.png"
-          />
-        </div>
+        {data.map((item, index) => {
+          if(item.name !== "temp")
+          return (
+            <div key={index} className="flex flex-col gap-6">
+              <ProjectCard
+                name={item.name}
+                link={item.link}
+                about={item.about}
+                img={item.img}
+                source={item.source}
+                tech={item.tech}
+                type={item.type}
+              />
+            </div>
+          );
+        })}
       </div>
     </main>
   );

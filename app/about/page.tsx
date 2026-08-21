@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { motion } from "motion/react";
+import Skill from "@/_data/skill.json";
 
 export default function AboutPage() {
   return (
@@ -15,7 +16,7 @@ export default function AboutPage() {
           className="text-center md:text-left flex flex-col justify-items-center items-center"
         >
           <h1 className="text-4xl tracking-tight md:text-5xl md:tracking-widest font-extrabold bg-gradient-to-r from-white via-zinc-300 to-zinc-500 bg-clip-text text-transparent capitalize text-center">
-            About me
+            About
           </h1>
           <p className="text-zinc-400 mt-2 text-m md:text-3xl md:tracking-widest text-center font-medium">
             Jedsadakorn Wichitrakanlikit
@@ -38,7 +39,10 @@ export default function AboutPage() {
               <span className="w-2 h-2 rounded-full bg-blue-500" />
               <span className="text-lg font-medium">
                 Kasetsart University
-                <p className="text-sm font-medium text-gray-400">Bachelor of Science (Computer Science) with Second Class Honours | 2026</p>
+                <p className="text-sm font-medium text-gray-400">
+                  Bachelor of Science (Computer Science) with Second Class
+                  Honours | 2026
+                </p>
               </span>
             </li>
           </ul>
@@ -61,73 +65,98 @@ export default function AboutPage() {
               Framework
             </h5>
             <div className="flex flex-wrap gap-2.5">
-              {[
-                "Next.js",
-                "Node.js",
-                "Express.js",
-                "Java Spring Boot",
-                "Laravel",
-              ].map((skill) => (
-                <span
-                  key={skill}
-                  className="px-4 py-2 rounded-xl bg-zinc-800/80 border border-zinc-700/50 text-zinc-200 text-sm font-medium hover:bg-zinc-700 hover:text-white transition duration-300 ease-in-out"
-                >
-                  {skill}
-                </span>
-              ))}
+              {Skill.framework.map((item, index) => {
+                return (
+                  <span
+                    key={index}
+                    className="inline-flex items-center gap-2.5 px-3.5 py-2 rounded-xl bg-zinc-800/80 border border-zinc-700/50 text-zinc-200 text-sm font-medium hover:bg-zinc-700 hover:text-white transition duration-300 ease-in-out shadow-sm"
+                  >
+                    <div className="w-7 h-7 rounded-lg bg-white p-1 flex items-center justify-center shrink-0">
+                      <img
+                        src={item.img}
+                        alt={item.name}
+                        className="w-full h-full object-contain"
+                      />
+                    </div>
+                    {item.name}
+                  </span>
+                );
+              })}
             </div>
           </div>
+
           <div className="space-y-3">
             <h5 className="text-sm font-semibold uppercase tracking-wider text-zinc-400">
               Language
             </h5>
             <div className="flex flex-wrap gap-2.5">
-              {[
-                "C / C++ / C#",
-                "CSS3",
-                "HTML5",
-                "Java",
-                "JavaScript",
-                "Python",
-                "TypeScript",
-              ].map((skill) => (
-                <span
-                  key={skill}
-                  className="px-4 py-2 rounded-xl bg-zinc-800/80 border border-zinc-700/50 text-zinc-200 text-sm font-medium hover:bg-zinc-700 hover:text-white transition duration-300 ease-in-out"
-                >
-                  {skill}
-                </span>
-              ))}
+              {Skill.language.map((item, index) => {
+                return (
+                  <span
+                    key={index}
+                    className="inline-flex items-center gap-2.5 px-3.5 py-2 rounded-xl bg-zinc-800/80 border border-zinc-700/50 text-zinc-200 text-sm font-medium hover:bg-zinc-700 hover:text-white transition duration-300 ease-in-out shadow-sm"
+                  >
+                    <div className="w-7 h-7 rounded-lg bg-white p-1 flex items-center justify-center shrink-0">
+                      <img
+                        src={item.img}
+                        alt={item.name}
+                        className="w-full h-full object-contain"
+                      />
+                    </div>
+                    {item.name}
+                  </span>
+                );
+              })}
             </div>
           </div>
+
           <div className="space-y-3">
             <h5 className="text-sm font-semibold uppercase tracking-wider text-zinc-400">
               ML
             </h5>
             <div className="flex flex-wrap gap-2.5">
-              {["Numpy", "Pandas", "Pytorch"].map((skill) => (
-                <span
-                  key={skill}
-                  className="px-4 py-2 rounded-xl bg-zinc-800/80 border border-zinc-700/50 text-zinc-200 text-sm font-medium hover:bg-zinc-700 hover:text-white transition duration-300 ease-in-out"
-                >
-                  {skill}
-                </span>
-              ))}
+              {Skill.ml.map((item, index) => {
+                return (
+                  <span
+                    key={index}
+                    className="inline-flex items-center gap-2.5 px-3.5 py-2 rounded-xl bg-zinc-800/80 border border-zinc-700/50 text-zinc-200 text-sm font-medium hover:bg-zinc-700 hover:text-white transition duration-300 ease-in-out shadow-sm"
+                  >
+                    <div className="w-7 h-7 rounded-lg bg-white p-1 flex items-center justify-center shrink-0">
+                      <img
+                        src={item.img}
+                        alt={item.name}
+                        className="w-full h-full object-contain"
+                      />
+                    </div>
+                    {item.name}
+                  </span>
+                );
+              })}
             </div>
           </div>
+
           <div className="space-y-3">
             <h5 className="text-sm font-semibold uppercase tracking-wider text-zinc-400">
               Tool
             </h5>
             <div className="flex flex-wrap gap-2.5">
-              {["Git", "Docker", "Linux", "Postman", "Unity"].map((skill) => (
-                <span
-                  key={skill}
-                  className="px-4 py-2 rounded-xl bg-zinc-800/80 border border-zinc-700/50 text-zinc-200 text-sm font-medium hover:bg-zinc-700 hover:text-white transition duration-300 ease-in-out"
-                >
-                  {skill}
-                </span>
-              ))}
+              {Skill.tool.map((item, index) => {
+                return (
+                  <span
+                    key={index}
+                    className="inline-flex items-center gap-2.5 px-3.5 py-2 rounded-xl bg-zinc-800/80 border border-zinc-700/50 text-zinc-200 text-sm font-medium hover:bg-zinc-700 hover:text-white transition duration-300 ease-in-out shadow-sm"
+                  >
+                    <div className="w-7 h-7 rounded-lg bg-white p-1 flex items-center justify-center shrink-0">
+                      <img
+                        src={item.img}
+                        alt={item.name}
+                        className="w-full h-full object-contain"
+                      />
+                    </div>
+                    {item.name}
+                  </span>
+                );
+              })}
             </div>
           </div>
         </motion.div>
@@ -138,15 +167,23 @@ export default function AboutPage() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="flex justify-center md:justify-start pt-2"
+          className="flex justify-center gap-5 md:justify-start pt-2"
         >
           <Link
             href="https://github.com/peth02"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-zinc-800 hover:bg-zinc-700 text-white font-medium border border-zinc-700 transition duration-300 ease-in-out shadow-md hover:shadow-zinc-700/20"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-zinc-800 hover:bg-zinc-700 text-white font-medium border border-zinc-700 transition duration-300 ease-in-out shadow-md hover:shadow-zinc-700/20  hover:underline"
           >
             GitHub ↗
+          </Link>
+          <Link
+            href="https://github.com/peth02"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-zinc-800 hover:bg-zinc-700 text-white font-medium border border-zinc-700 transition duration-300 ease-in-out shadow-md hover:shadow-zinc-700/20  hover:underline"
+          >
+            Resume ↗
           </Link>
         </motion.div>
       </div>
