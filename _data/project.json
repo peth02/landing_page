@@ -12,10 +12,10 @@
     {
       "name": "Learnning Buddy",
       "link": "",
-      "about": "",
+      "about": "A study helper platform with note taking, flash card, and quiz function, intregrating with llm local model to help summarize note, create flash card and quiz from note. Make sharing studied topic with other seemlessly. Easier to test yourself knowledge in topic with llm help.",
       "img": "/image/placeholder.png",
       "source": ["https://github.com/peth02/LearnningBuddy_frontend", "https://github.com/Pawi16/learning-buddy-be"],
-      "tech": ["Next.js", "Java Spring Boot", "Python", "PostgresSQL"],
+      "tech": ["Next.js", "Java Spring Boot", "Python", "FastAPI", "PostgresSQL"],
       "type": "WEB"
     },
     {
@@ -56,9 +56,9 @@
       "type": "WEB"
     },
     {
-      "name": "Student Organization Management",
+      "name": "Faculty Organization Management",
       "link": "",
-      "about": "",
+      "about": "An ",
       "img": "/image/placeholder.png",
       "source": ["source1"],
       "tech": [
@@ -77,7 +77,7 @@
       "about": "",
       "img": "/image/placeholder.png",
       "source": ["source1"],
-      "tech": ["Next.js", "Tailwind", "TypeScript", "Docker", "GO", "MySQL"],
+      "tech": ["Next.js", "Tailwind", "TypeScript", "Docker", "GO", "MySQL", "Figma", ""],
       "type": "WEB"
     },
     {
@@ -94,7 +94,7 @@
       "link": "",
       "about": "An intense 3D stealth-survival game built in Unreal Engine 5 with Blender assets. Players must navigate atmospheric environments to complete critical escape objectives while evading an unpredictable ghost powered by custom AI detection routines that react dynamically to player movement and audio cues.",
       "img": "/image/placeholder.png",
-      "source": ["source1"],
+      "source": ["https://github.com/peth02/XR66-TheKey"],
       "tech": ["unreal engine 5", "blender"],
       "type": "GAME"
     },
@@ -105,15 +105,6 @@
       "img": "/image/placeholder.png",
       "source": ["https://github.com/CS211-661/cs211-661-project-mr-po"],
       "tech": ["Java", "JavaFX", "Figma"],
-      "type": "SOFTWARE"
-    },
-    {
-      "name": "Software",
-      "link": "",
-      "about": "",
-      "img": "/image/placeholder.png",
-      "source": [],
-      "tech": ["unity", "blender"],
       "type": "SOFTWARE"
     },
     {
