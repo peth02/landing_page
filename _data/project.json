@@ -58,7 +58,7 @@
     {
       "name": "Faculty Organization Management",
       "link": "",
-      "about": "An ",
+      "about": "This is a comprehensive platform designed to streamline administrative tasks, academic tracking, and student affairs within a computer science department or faculty. Built on the Laravel framework, the system manages interconnected data between students, academic staff, courses, and extracurricular records to centralize institutional operations.",
       "img": "/image/project/FacultyOrganizationManagement.png",
       "source": ["source1"],
       "tech": [
