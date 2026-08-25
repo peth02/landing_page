@@ -3,9 +3,9 @@
     {
       "name": "Compiler",
       "link": "",
-      "about": "Create python compile to compile algorithm into DSA",
-      "img": "/image/placeholder.png",
-      "source": ["source1"],
+      "about": "Create python compile to compile algorithm into DSA.",
+      "img": "/image/project/Compiler.png",
+      "source": ["https://github.com/peth02/compiler"],
       "tech": ["Python"],
       "type": "ALGO"
     },
@@ -13,7 +13,7 @@
       "name": "Learnning Buddy",
       "link": "",
       "about": "A study helper platform with note taking, flash card, and quiz function, intregrating with llm local model to help summarize note, create flash card and quiz from note. Make sharing studied topic with other seemlessly. Easier to test yourself knowledge in topic with llm help.",
-      "img": "/image/placeholder.png",
+      "img": "/image/project/LearningBuddy.png",
       "source": ["https://github.com/peth02/LearnningBuddy_frontend", "https://github.com/Pawi16/learning-buddy-be"],
       "tech": ["Next.js", "Java Spring Boot", "Python", "FastAPI", "PostgresSQL"],
       "type": "WEB"
@@ -22,8 +22,8 @@
       "name": "Image Transmission Pipeline",
       "link": "",
       "about": "Create a pipeline for a secure, high-efficiency image transmission. Combining deep generative modeling with cryptographic secret sharing. across key reconstruction metrics (PSNR, SSIM, and MSE), the optimal model was selected, fine-tuned, and paired with Shamir's (k, n) Threshold Secret Sharing to split compact",
-      "img": "/image/placeholder.png",
-      "source": [],
+      "img": "/image/project/ImageTransmissionPipeline.png",
+      "source": ["https://github.com/mindptnie/Secret_Image_Sharing"],
       "tech": ["Python", "Pytorch"],
       "type": "AI"
     },
@@ -31,8 +31,8 @@
       "name": "Gamedle",
       "link": "",
       "about": "An interactive, Wordle-inspired guessing platform for Pokémon and League of Legends enthusiasts. Players test their gaming knowledge across dedicated modes by analyzing dynamic real-time hints—such as types, roles, release years to identify daily characters, while a comprehensive admin dashboard allows system managers to easily curate character databases, control answer rotations, and monitor player data.",
-      "img": "/image/placeholder.png",
-      "source": [],
+      "img": "/image/project/Gamedle.png",
+      "source": ["https://github.com/SirTarn798/Gamedle-Front/tree/main", "https://github.com/panuwit89/pant"],
       "tech": [
         "Next.js",
         "Tailwind",
@@ -59,12 +59,10 @@
       "name": "Faculty Organization Management",
       "link": "",
       "about": "An ",
-      "img": "/image/placeholder.png",
+      "img": "/image/project/FacultyOrganizationManagement.png",
       "source": ["source1"],
       "tech": [
-        "Next.js",
         "Tailwind",
-        "TypeScript",
         "Docker",
         "Laravel",
         "MySQL"
@@ -72,7 +70,7 @@
       "type": "WEB"
     },
     {
-      "name": "Farm Management system",
+      "name": "temp_Farm Management system",
       "link": "",
       "about": "",
       "img": "/image/placeholder.png",
@@ -81,7 +79,7 @@
       "type": "WEB"
     },
     {
-      "name": "Car game",
+      "name": "temp_Car game",
       "link": "",
       "about": "A 3D driving experience built with Unity and Blender, featuring realistic vehicle dynamics, custom environment assets, and responsive physics controls. Focusing on smooth handling, accurate motion mechanics, and accessible gameplay loop.",
       "img": "/image/placeholder.png",
@@ -102,7 +100,7 @@
       "name": "Event Management Software",
       "link": "",
       "about": "A desktop event orchestration app developed using Java, JavaFX, and the Model-View-Controller (MVC) design pattern. Structured around strict Object-Oriented Design (OOD) principles, the system leverages a modular architecture to handle core operations for users, events, and teams. Built with a lightweight, file-based CSV data layer that utilizes custom object serialization/deserialization to guarantee data persistence and integrity without requiring an external database.",
-      "img": "/image/placeholder.png",
+      "img": "/image/project/EventManagementSoftware.png",
       "source": ["https://github.com/CS211-661/cs211-661-project-mr-po"],
       "tech": ["Java", "JavaFX", "Figma"],
       "type": "SOFTWARE"

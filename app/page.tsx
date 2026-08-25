@@ -37,7 +37,7 @@ export default function Home() {
         </motion.div>
 
         {data.map((item, index) => {
-          if(item.name !== "temp")
+          if(!item.name.includes('temp'))
           return (
             <div key={index} className="flex flex-col gap-6">
               <ProjectCard
