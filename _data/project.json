@@ -3,7 +3,7 @@
     {
       "name": "Compiler",
       "link": "",
-      "about": "Create python compile to compile algorithm into DSA.",
+      "about": "Create python compile to compile regular expression into DSA.",
       "img": "/image/project/Compiler.png",
       "source": ["https://github.com/peth02/compiler"],
       "tech": ["Python"],
