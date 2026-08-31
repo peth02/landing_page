@@ -178,12 +178,20 @@ export default function AboutPage() {
             GitHub ↗
           </Link>
           <Link
-            href="https://github.com/peth02"
+            href="https://drive.google.com/file/d/1VENPLLaQ1lHP4E3aQrNgtyonhFWyEJzB/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-zinc-800 hover:bg-zinc-700 text-white font-medium border border-zinc-700 transition duration-300 ease-in-out shadow-md hover:shadow-zinc-700/20  hover:underline"
           >
             Resume ↗
+          </Link>
+          <Link
+            href="https://drive.google.com/file/d/1MJWgrgz104epLflrkMSdAHh_7yJRgzFU/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-zinc-800 hover:bg-zinc-700 text-white font-medium border border-zinc-700 transition duration-300 ease-in-out shadow-md hover:shadow-zinc-700/20  hover:underline"
+          >
+            Transcript ↗
           </Link>
         </motion.div>
       </div>
