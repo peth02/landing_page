@@ -15,7 +15,7 @@
       "about": "A study helper platform with note taking, flash card, and quiz function, intregrating with llm local model to help summarize note, create flash card and quiz from note. Make sharing studied topic with other seemlessly. Easier to test yourself knowledge in topic with llm help.",
       "img": "/image/project/LearningBuddy.png",
       "source": ["https://github.com/peth02/LearnningBuddy_frontend", "https://github.com/Pawi16/learning-buddy-be"],
-      "tech": ["Next.js", "Java Spring Boot", "Python", "FastAPI", "PostgresSQL"],
+      "tech": ["Next.js", "Java Spring Boot", "Python", "FastAPI"],
       "type": "WEB"
     },
     {
